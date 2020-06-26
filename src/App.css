@@ -1,6 +1,7 @@
 @import "css/navBarStyle.css";
 @import "css/homeStyle.css";
 @import "css/footerStyle.css";
+@import "css/aboutUsStyle.css";
 
 @import "css/jquery-ui-1.10.4.custom.css";
 @import "css/infocenter_hotels.css";
@@ -14,5 +15,5 @@
 
 .PageWrapper{
   height: fit-content;
-  padding-bottom: 15.5vw;
+  padding-bottom: 13vw;
 }

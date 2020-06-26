@@ -9,6 +9,7 @@ import {
 import Header from './components/Header';
 import Home from './components/Home';
 import Footer from './components/Footer';
+import AbousUs from './components/AbousUs';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Switch>
             <div>
               <Route exact path="/" component={Home}></Route>
+              <Route exact path="/nosotros" component={AbousUs}></Route>
             </div>
           </Switch>
 

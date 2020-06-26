@@ -1,0 +1,40 @@
+.aboutUs {
+    margin-top: 1vw;
+}
+
+.section {
+    display: flex;
+    padding-left: 20vw;
+    padding-right: 20vw;
+    padding-bottom: 2vw;
+}
+
+.section img {
+    height: 13vw;
+    margin-left: 3vw;
+    margin-right: 3vw;
+}
+
+.content {
+    text-align: justify;
+    margin: auto;
+}
+
+.content h2 {
+    font-weight: 500;
+    font-size: 1.8vw;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #464649;
+}
+
+.content p {
+    margin-top: 0.5vw;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1vw;
+    color: #646478;
+}
+
+.textMision {
+    width: 40vw;
+}
+
