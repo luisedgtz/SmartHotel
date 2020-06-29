@@ -82,6 +82,39 @@
     position: absolute;
 }
 
+#habitaciones {
+    display: block;
+    top: -15vw;
+    position: absolute;
+}
+
+#habitaciones2 {
+    display: block;
+    top: -20vw;
+    position: absolute;
+}
+
+.carousel-caption {
+    top: 40%;
+    left: 20%;
+}
+
+.carousel-caption h5 {
+    text-align: left;
+    background-color: #10345C;
+    width: fit-content;
+    padding: 0.5vw;
+}
+
+.carousel-caption p {
+    text-align: left;
+    background-color: #ecececd7;
+    width: fit-content;
+    padding: 0.5vw;
+    color: black;
+}
+
+
 .roomCardContainer {
    display: flex;
    justify-content: center;

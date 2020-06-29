@@ -24,7 +24,7 @@
     position: absolute;
     bottom: 0;
     width: 100%;
-    height: 12vw;
+    height: 14vw;
 }
 
 .location {
@@ -91,4 +91,12 @@
     margin-left: 0.4vw;
     margin-right: 0.4vw;
     margin-bottom: 0;
+}
+
+.footerSection a {
+    color: white;
+}
+
+.footerSection a:hover {
+    color: white;
 }

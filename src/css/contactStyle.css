@@ -1,0 +1,65 @@
+.contactContainer h1 {
+    text-align: center;
+    font-weight: 300;
+    font-size: 1.5vw;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #646478;
+    border-bottom: solid 0.26vw #C6144F;
+    width: fit-content;
+    height: 1.9em;
+    margin-top: 1vw;
+}
+
+.textContact {
+    width: 50%;
+    margin: auto;
+    display: flex;
+}
+
+.section1Contact {
+    width: 50%;
+}
+
+.contactInfoContainer {
+    margin-top: 2vw;
+}
+
+.contactTag {
+    display: flex;
+}
+
+.contactIcon {
+    height: 2vw;
+}
+
+.contactTag p {
+    margin-left: 0.3vw;
+    line-height: 2vw;
+}
+
+.sendMail {
+    width: 50%;
+}
+
+.test-mailing {
+    margin-top: 2vw;
+}
+
+.test-mailing div {
+    display: flex;
+    flex-direction: column;
+}
+
+#test-mailing {
+    margin-top: 1vw;
+}
+
+.btn-contact {
+    margin-top: 1vw;
+    background-color: #C6144F;
+    color: white;
+    border: 0px;
+    padding: 0.5vw;
+    float: right;
+    border-radius: 0.2vw;
+}

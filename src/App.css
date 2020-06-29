@@ -5,6 +5,7 @@
 @import "css/roomsStyle.css";
 @import "css/galleryStyle.css";
 @import "css/mapStyle.css";
+@import "css/contactStyle.css";
 
 @import "css/jquery-ui-1.10.4.custom.css";
 @import "css/infocenter_hotels.css";
@@ -18,5 +19,5 @@
 
 .PageWrapper{
   height: fit-content;
-  padding-bottom: 13vw;
+  padding-bottom: 14vw;
 }

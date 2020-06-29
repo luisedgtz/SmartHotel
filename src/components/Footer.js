@@ -31,8 +31,8 @@ export default (props)=>{
                 <div className="follow-us">
                     <p>Síguenos</p>
                     <div className="followUsIcons">
-                        <img className="footIcon" src={footFB} alt=""/>
-                        <img className="footIcon" src={footInsta} alt=""/>
+                        <a href="https://www.facebook.com/SMARTHOTELMONTERREY" target="_blank"><img className="footIcon" src={footFB} alt=""/></a>
+                        <a href="https://www.instagram.com/smart_hotel_cintermex/?hl=es-la" target="_blank"><img className="footIcon" src={footInsta} alt=""/></a>
                     </div>
                 </div>
             </div>
@@ -57,11 +57,16 @@ export default (props)=>{
                     <img className="footIcon2" src={footWA} alt=""/>
                     <p>81 2437-8751</p>
                 </div>
+
+                <div className="infoTag">
+                    <img className="footIcon2" src={footPhone} alt=""/>
+                    <p>Recepción: 81 1845-1884</p>
+                </div>
             </div>
 
             <div className="footerSection">
                 <p>¿Cómo podemos ayudarte?</p>
-                <p>Contáctanos {">"}</p>
+                <a href="/contacto">Contáctanos {">"}</a>
                 <p>Políticas y cancelaciones {">"}</p>
             </div>              
         </div>

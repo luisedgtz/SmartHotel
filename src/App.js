@@ -13,6 +13,7 @@ import AbousUs from './components/AbousUs';
 import Rooms from './components/Rooms';
 import Gallery from './components/Gallery';
 import Location from './components/Location';
+import Contact from './components/Contact';
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
               <Route exact path="/habitaciones" component={Rooms}></Route>
               <Route exact path="/galeria" component={Gallery}></Route>
               <Route exact path="/ubicacion" component={Location}></Route>
+              <Route exact path="/contacto" component={Contact}></Route>
             </div>
           </Switch>
 
