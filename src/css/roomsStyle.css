@@ -1,0 +1,61 @@
+.roomsContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 2vw;
+    font-family: 'Roboto Condensed', sans-serif;
+
+}
+
+.roomContainer {
+    margin-right: 1vw ;
+    height: 28vw;
+    width: 20vw;
+    border: 2px solid #F0F0F0;
+    
+}
+
+.imgContainerRoom img {
+    height: 100%;
+}
+
+.imgContainerRoom {
+    text-align: center;
+    height: 10vw;
+    margin-top: 1vw;
+}
+
+.textContainerRoom {
+    margin: auto;
+    width: 15.05vw;
+}
+
+.textContainerRoom h4 {
+    margin-top: 1.2vw;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #646478;
+    font-weight: 400;
+    font-size: 1.5vw;
+}
+
+.textContainerRoom p {
+    text-align: justify;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #646478;
+    font-weight: 400;
+    font-size: 0.9vw;
+    height: 6vw;
+}
+
+.textContainerRoom h5 {
+    width: fit-content;
+    padding: 0.31vw;
+    border: 1px solid #646478;
+    text-align: justify;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #646478;
+    font-weight: 400;
+    font-size: 0.8vw;
+    margin-top: 4vw;
+
+}
+

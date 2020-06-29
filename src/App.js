@@ -10,6 +10,9 @@ import Header from './components/Header';
 import Home from './components/Home';
 import Footer from './components/Footer';
 import AbousUs from './components/AbousUs';
+import Rooms from './components/Rooms';
+import Gallery from './components/Gallery';
+import Location from './components/Location';
 
 function App() {
   return (
@@ -22,6 +25,9 @@ function App() {
             <div>
               <Route exact path="/" component={Home}></Route>
               <Route exact path="/nosotros" component={AbousUs}></Route>
+              <Route exact path="/habitaciones" component={Rooms}></Route>
+              <Route exact path="/galeria" component={Gallery}></Route>
+              <Route exact path="/ubicacion" component={Location}></Route>
             </div>
           </Switch>
 
