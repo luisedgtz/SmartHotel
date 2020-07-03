@@ -7,7 +7,7 @@
     padding: 1vw;
     display: flex;
     justify-content: space-evenly;
-    height: 100%;
+    height: fit-content;
 }
 
 .fondo {
@@ -76,10 +76,11 @@
 }
 
 .bottomFooter {
-    margin-left: 1vw;
-    margin-top: 1vw;
+    margin-left: 0.5vw;
+    margin-top: 0.5vw;
     font-family: 'Roboto Condensed', sans-serif;
     color: #646464;
+    font-size: 0.7vw;
 }
 
 .bottomBtns {

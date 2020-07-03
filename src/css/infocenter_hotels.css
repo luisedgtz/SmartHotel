@@ -32,9 +32,8 @@
 
 .divCell {
   float: left;
-  margin-right: 0.3vw;
-  max-width: 200px;
-  width: 100%;
+  margin-right: 0.1vw;
+  width: 10vw;
   padding-right: 1vw;
   padding-left: 1vw;
   padding-bottom: 0.5vw; }
@@ -421,7 +420,7 @@ hr {
   border-top-right-radius: 10px; }
 
 .containerBox-footer {
-  margin-top: 20%;
+  margin-top: 24%;
   border-radius: 10px;
   padding-top: 0px !important;
   padding-bottom: 0px !important;

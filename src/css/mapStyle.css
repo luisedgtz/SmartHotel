@@ -3,6 +3,10 @@
     margin: auto;
 }
 
+.mapContainer {
+    margin-bottom: 4vw;
+}
+
 .mapContainer h1 {
     text-align: center;
     font-weight: 300;

@@ -2,7 +2,8 @@ import React from 'react'
 
 import img1 from './Assets/img1Spinner.jpg'
 import img2 from './Assets/FotosHotel/1.jpg'
-import img3 from './Assets/FotosHotel/11 copy.jpg'
+import img3 from './Assets/img2Spinner.jpg'
+import img4 from './Assets/img3Spinner.jpg'
 
 
 export default (props)=>{
@@ -27,11 +28,11 @@ export default (props)=>{
             </div>
 
             <div className="carousel-item">
-            <img id="habitaciones2" src={img3} className="d-block w-100" alt="..."/>
-            <div class="carousel-caption d-none d-md-block">
-                <h5>SANITIZAMOS TODOS LOS DÍAS DE MANERA EXHAUSTIVA</h5>
-                <p>Todo está listo para tu regreso, ¡Te esperamos pronto!</p>
+            <img src={img3} className="d-block w-100" alt="..."/>
             </div>
+
+            <div className="carousel-item">
+            <img src={img4} className="d-block w-100" alt="..."/>
             </div>
         </div>
         <a className="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
